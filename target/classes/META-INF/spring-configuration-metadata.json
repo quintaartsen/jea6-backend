@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "security.jwt",
+      "type": "twitter.security.TokenConstrains",
+      "sourceType": "twitter.security.TokenConstrains"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

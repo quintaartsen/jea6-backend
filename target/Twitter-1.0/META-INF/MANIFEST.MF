@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Version: 1.0
+Built-By: quintaartsen
+Implementation-Vendor-Id: Twitter
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_201
+Main-Class: ${start-class}
+

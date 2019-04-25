@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3c.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+    <title>Twitter Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</h:head>
+
+<h:body styleClass="grey dark-5">
+    <div class="valign-wrapper" id="login-page">
+        <div class="container">
+            <div class="center-align">
+                <div class="row">
+                    <div class="col s6 offset-s3">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="left-align">
+                                    <h:form id="login-form" prependId="false">
+                                        <div class="row">
+                                            <p:outputLabel value="Wrong username or password." style="color: red;"
+                                                           rendered="${!empty param['inCorrectLogin']}"/>
+                                            <div class="col s12 input-field">
+                                                <p:inputText id="username" required="true" />
+                                                <p:outputLabel for="username" value="Username"/>
+                                            </div>
+                                            <div class="col s12 input-field">
+                                                <p:password id="password" required="true" />
+                                                <p:outputLabel for="password" value="Password"/>
+                                            </div>
+                                            <div class="col s12 input-field">
+                                                <p:commandLink value="Log in" style="background-color: #f05a1a;" styleClass="btn btn-success btn-lg btn-block" ajax="false"/>
+                                            </div>
+                                        </div>
+                                    </h:form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).on("ready", function () {
+            $('#login-page').css({'height': window.innerHeight + 'px'});
+        });
+    </script>
+</h:body>
+</html>
