@@ -9,11 +9,11 @@
 //import org.springframework.http.MediaType;
 //import org.springframework.test.context.junit4.SpringRunner;
 //import org.springframework.test.web.servlet.MockMvc;
-//import twitter.controllers.TweetController;
-//import twitter.models.Role;
-//import twitter.models.Tweet;
-//import twitter.models.User;
-//import twitter.services.interfaces.ITweetService;
+//import jea.controllers.TweetController;
+//import jea.messaginglib.models.Role;
+//import jea.messaginglib.models.Tweet;
+//import jea.messaginglib.models.User;
+//import jea.services.interfaces.ITweetService;
 //
 //import java.util.UUID;
 //

@@ -2,8 +2,8 @@
   "groups": [
     {
       "name": "security.jwt",
-      "type": "twitter.security.TokenConstrains",
-      "sourceType": "twitter.security.TokenConstrains"
+      "type": "jea.security.TokenConstrains",
+      "sourceType": "jea.security.TokenConstrains"
     }
   ],
   "properties": [],

@@ -2,9 +2,9 @@ package twitter.modelTest;
 
 import org.junit.Assert;
 import org.junit.Test;
-import twitter.models.Role;
-import twitter.models.Tweet;
-import twitter.models.User;
+import jea.models.Role;
+import jea.models.Tweet;
+import jea.models.User;
 
 import static org.junit.Assert.assertEquals;
 
