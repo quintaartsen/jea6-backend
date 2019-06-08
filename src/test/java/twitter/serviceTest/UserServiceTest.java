@@ -5,10 +5,10 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import twitter.models.Role;
-import twitter.models.User;
-import twitter.repositories.interfaces.IUserRepository;
-import twitter.services.concrete.UserService;
+import jea.models.Role;
+import jea.models.User;
+import jea.repositories.interfaces.IUserRepository;
+import jea.services.concrete.UserService;
 
 import java.util.UUID;
 

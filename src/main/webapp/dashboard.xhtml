@@ -53,6 +53,9 @@
         <p:column styleClass="table-header" headerText="Followers">
             <h:outputText styleClass="table-row" value="#{user.followers.size()}" />
         </p:column>
+        <p:column styleClass="table-header" headerText="Activated">
+            <h:outputText styleClass="table-row" value="#{user.activated}" />
+        </p:column>
         <p:column>
             <h:form>
                 <p:commandButton value="Delete" id="deleteUser" action="#{adminController.deleteUser(user)}" update="users" />
